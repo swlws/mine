@@ -1,0 +1,25 @@
+{
+  "name": "mine",
+  "version": "1.0.0",
+  "description": "the perional website",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swlws/mine.git"
+  },
+  "author": "swl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swlws/mine/issues"
+  },
+  "homepage": "https://github.com/swlws/mine#readme",
+  "dependencies": {
+    "mongodb": "^3.0.0-rc0",
+    "restful": "^0.4.5",
+    "restify": "^6.3.4",
+    "serve-static-restify": "^2.0.0"
+  }
+}
